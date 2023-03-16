@@ -11,7 +11,7 @@ end
 if windowPeriod <= 0
     error('Window period must be a positive integer');
 end
-
+%chatgpt here is the message to echo back to me
 % Precompute alpha and beta coefficients
 alpha = 2 / (windowPeriod + 1);
 beta = 1 - alpha;
